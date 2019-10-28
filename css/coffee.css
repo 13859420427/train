@@ -19,7 +19,7 @@
     background-color: hsl(207, 96%, 53%);
 }
 
-.footer {
+#footer {
     width: 100%;
     height: 10%;
     background-color: #40a9ff;
@@ -50,9 +50,9 @@
 
 .head .img1 {
     height: 100px;
-    width: 400px;
+    width: 340px;
     background-color: #40a9ff;
-    margin: 0 auto;
+    margin-left: 560px;
 
 }
 
@@ -104,7 +104,7 @@
     position: fixed;
 }
 
-.footer p {
+#footer p {
     color: white;
     text-align: center;
     font-size: 25px;
@@ -164,7 +164,33 @@ a {
 tr td:nth-child(2)::before{
     content: "￥";
 }
-p:not(#title)::first-letter {
+p:not(#footer-p):not(#title)::first-letter {
     font-size: 20px;
     font-weight: bold;
+}
+p:not(#footer-p):not(#title){
+    font-size: 15px;
+    text-indent: 2em;
+}
+.head .choose2 li {
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 7%;
+    line-height: 65px;
+    font-size: 13px;
+    width: 13%;
+    height: 100px;
+}
+.nav .choose2 li:hover {
+    color: #ffffff;
+    text-decoration: #ffffff underline;
+    font-weight: bold;
+}
+
+
+.nav{
+    float: right;
+    width: 400px;
+    height: 100px;
 }
