@@ -5,15 +5,15 @@
 
 
 .aa {
-    background-color: floralwhite;
+    background-color: white;
     padding: 40px 80px 80px;
 }
 
 #qiang {
-    background-color: rgb(219, 230, 217);
+    background-color: #e6f7ff;
     width: 100%;
     height: 500px;
-    border: 1px solid rgb(229, 229, 229);
+    border: 1px solid #e6f7ff;
     font-size: 14px;
 }
 
@@ -28,8 +28,8 @@
 }
 
 .send {
-    border: 1px solid rgb(230, 80, 30);
-    color: rgb(230, 80, 0);
+    border: 1px solid #40a9ff;
+    color: #40a9ff;
     border-radius: 3px;
     text-align: center;
     padding: 0;
@@ -42,7 +42,7 @@
 
 .clear {
     border: 1px solid;
-    color: black;
+    color: #40a9ff;
     border-radius: 3px;
     text-align: center;
     padding: 0;
@@ -50,7 +50,7 @@
     line-height: 35px;
     font-size: 14px;
     width: 159px;
-    background-color: burlywood;
+    background-color: #bae7ff;
 }
 
 .edit {
