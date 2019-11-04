@@ -1,4 +1,4 @@
-axios.get('https://mock-api.com/7gPXeRgl.mock/dongman')
+axios.get('http://mock-api.com/7gPXeRgl.mock/dongman')
     .then(function(res) {
         $(".loading i").css("animation-play-state","running");
         for (var i = 0; i < res.data.length; i++) {
