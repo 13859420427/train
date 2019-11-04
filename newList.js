@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-axios.get('http://mock-api.com/7gPXeRgl.mock/dongman')
+axios.get('C:\Users\Administrator\Desktop\qiyezhan\qiyezhan\train\b.json')
 =======
 axios.get('b.json')
 >>>>>>> update
@@ -19,7 +19,7 @@ $(document).ready(function() {
         $(".loading").css("display","block");
         $(".loading i").css("animation-play-state","running");
 <<<<<<< HEAD
-        axios.get('http://mock-api.com/7gPXeRgl.mock/dongman')
+        axios.get('C:\Users\Administrator\Desktop\qiyezhan\qiyezhan\train\b.json')
 =======
         axios.get('b.json')
 >>>>>>> update
@@ -39,7 +39,7 @@ $(document).ready(function() {
         $(".loading").css("display","block");
         $(".loading i").css("animation-play-state","running");
 <<<<<<< HEAD
-        axios.get('http://mock-api.com/7gPXeRgl.mock/haizei')
+        axios.get('C:\Users\Administrator\Desktop\qiyezhan\qiyezhan\train\a.json')
 =======
         axios.get('a.json')
 >>>>>>> update
