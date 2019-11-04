@@ -1,7 +1,5 @@
 $(document).ready(function () {
     //获取api新闻图片和文本
-<<<<<<< HEAD
-    axios.get('C:\Users\Administrator\Desktop\qiyezhan\qiyezhan\train\c.json')
 =======
     axios.get('c.json')
 >>>>>>> update
