@@ -1,25 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>首页</title>
+    <link rel="stylesheet" href="qiye.css">
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+    <link rel="icon" href="image/Iron Man.png" type="image/x-icon"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
 </head>
+
 <body>
-    <h1>hello yuwan</h1>
-    <ul>
-        <li>123</li>
-        <li>456</li>
-        <li>789</li>
-    </ul>
-    <h2>next</h2>
-        <a href="./a.html">Goto a Page</a> <br>
-        <a href="./b.html">Goto b Page</a> <br>
-        <a href="./new.html">Goto new Page</a> <br>
-        <a href="./new2.html">Goto new2 Page</a> <br>
-        <a href="./danmu.html">danmu</a> <br>
-        <a href="./coffee-div.html">coffee-div</a> <br>
-        <a href="./portfolio.html">movie</a> <br>
+    <div class="header width_all">
+        <ul class="link">
+            <li><a href="danmu.html">弹幕</a></li>
+            <li><a href="newList.html">通缉令</a></li>
+            <li><a href="one.html">ONE PIECE</a></li>
+        </ul>
+        <div class="logo">
+            <a href="#" title="海贼王">
+                <img src="./image/a4.png" alt="网站Logo">
+                <span>海贼王</span>
+            </a>
+        </div>
+
+    </div>
+    <!-- 轮播图区域 -->
+    <div class="banner">
+        <ul id="imgList">
+            <li class="first"><a href="#"><img src="./image/z1.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./image/z2.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./image/z3.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./image/z4.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./image/z5.jpg" alt=""></a></li>
+
+        </ul>
+        <div class="navDiv">
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+        <div class="left">&#60</div>
+        <div class="right">></div>
+    </div>
+    <!-- 服务范围 -->
+    <div class="service">
+          <h2>世界地图</h2>
+    <div class="content_service width_all">
+        <!-- <div class="service_title">
+            <h2>服务范围</h2>
+        </div> --> 
+        <div class="service_content">
+            <ul class="service_content_img">
+                <li><img src="./image/w1.png" alt=""><p>红土大陆</p></li>
+                <li><img src="./image/w2.png" alt=""><p>伟大航路</p></li>
+                <li><img src="./image/w3.png" alt=""><p>四大海洋</p></li>
+                <li><img src="./image/w4.png" alt=""><p>两大地标</p></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+  
+    <!-- 成员介绍 -->
+
+    <div class="content_member width_all">
+        <!-- 标题部分 -->
+        <div class="member_title">
+            <h2>成员介绍</h2>
+        </div>
+        <!-- 成员介绍主体 -->
+        <div class="content_main">
+            <div class="main1">
+                <img src="./image/a1.jpg" alt="蒙奇·D·路飞">
+                <div class="main_introduce1">
+                    <h2>蒙奇·D·路飞</h2>
+                    <span>蒙奇·D·路飞，是日本动漫《航海王》的男主角。草帽海贼团船长。由于他的标志性特征是一顶草帽，因此常被直接称呼为草帽小子或草帽路飞。梦想是找到传说中的One Piece，成为海贼王。</span>
+
+                    <div class="main_introduce_footer">
+                        <hr>
+                        <span>性格积极乐观，爱憎分明且十分重视伙伴，对任何危险的事物都超感兴趣。看似白痴，却是一个大智若愚型的无愧船长之职的人。和其他传统的海贼所不同的是，他并不会为了追求财富而无故杀戮，而是享受着身为海贼的冒险。</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="main2">
+                <div class="main_introduce2">
+                    <h2>罗罗亚·索隆</h2>
+                    <span>罗罗诺亚·索隆(Roronoa Zoro)日本漫画《海贼王》人物，草帽一伙中的战斗员，是悬赏过亿武艺高强的三刀流剑士，二年前超新星11人之一，能够自由操纵三把刀战斗。爱喝酒，爱睡觉，讲义气，海贼第一超级大路痴。</span>
+                    <div class="main_introduce_footer">
+                        <hr>
+                        <span>为了小时候与挚友的约定而踏上了前往世界第一剑士的道路，随后成为主角蒙奇·D·路飞的第一个伙伴。在初次败给世界第一剑士"鹰眼米霍克"后向路飞发誓永不再败，并且更加努力的锻炼自己。两年后的他成功与伙伴们汇合，并且为了实现自己的梦想，奔赴强者如云的新世界。</span>
+                    </div>
+                </div>
+                <img src="./image/a2.jpg" alt="罗罗亚·索隆">
+            </div>
+            <div class="main3">
+                <div class="main_introduce3">
+                    <h2>波特卡斯·D·艾斯</h2>
+                    <span>波特卡斯·D·艾斯是日本动漫《海贼王》里的虚构人物，统称为“火拳”，是主角蒙奇·D·路飞的义兄，已逝。艾斯本名哥尔·D·艾斯，实为“海贼王”哥尔·D·罗杰的遗腹子，长大后因相当痛恨父亲，故改姓生母波特卡斯·D·露玖的姓氏。</span>
+                    <div class="main_introduce_footer">
+                        <hr>
+                        <span>黑发，常戴着一顶橘色的帽子，在帽子上有奸笑和难过这两种表情图案，而且帽子的绳子绑着一个骷髅头的牌子，是白胡子海贼团第二队队长，实力不凡。曾被一度邀请加入七武海。后被黑胡子击败，并且交与海军，关押在海底大监狱。后因为保护路飞用身体去挡海军大将赤犬的岩浆拳，结果被贯穿了身体。内脏也被烧伤，船医通过检查发现其内脏已被烧坏无法医治，因伤势过重死亡。</span>
+                    </div>
+                </div>
+                <img src="./image/a3.jpg" alt="波特卡斯·D·艾斯">
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- 新闻动态 -->
+    <div class="content_new width_all">
+        <div class="content_new_word">
+            <h2>新闻动态</h2>
+        </div>
+        <div class="content_new_image">
+            <ul id="new">
+                
+            </ul>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="footer_top">
+            <div class="footer1"><img src='./image/h4.jpg' alt=""><p>123-456-789</p></div>
+            <div class="footer2"><img src="./image/h3.jpg" alt=""><p>123456789@163.com</p></div>
+            <div class="footer3"><img src="./image/h2.jpg" alt=""><p>ONE PIECE</p></div>
+            <div class="footer4"><img src="./image/h1.png" alt="">加入路飞</div>
+        </div>
+        <div class="footer_bottom">
+            <hr>
+            <h4>版权所有&海贼王</h4>
+        </div>
+    </div>
 </body>
+
+<script src="jquery-1.12.4.js"></script>
+<script src="qiyezhan.js"></script>
+
 </html>
