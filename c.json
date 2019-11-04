@@ -1,0 +1,26 @@
+[
+    {
+        "name": "new1",
+        "url": "https://p1.ssl.qhimg.com/t01de3930df792eb217.jpg",
+        "tit": "文斯莫克·山治",
+        "cont": "草帽海贼团厨师，金发，有着卷曲眉毛"
+    },
+    {
+        "name": "new2",
+        "url": "https://p1.ssl.qhimg.com/t01ba8e92eab468ec8e.jpg",
+        "tit": "托尼托尼·乔巴",
+        "cont": "乔巴是草帽海贼团的船医"
+    },
+    {
+        "name": "new3",
+        "url": "https://p1.ssl.qhimg.com/t0142099cc3ec4e1fcb.jpg",
+        "tit": "妮可·罗宾",
+        "cont": "草帽海贼团的考古学家"
+    },
+    {
+        "name": "new4",
+        "url": "https://p1.ssl.qhimg.com/t015f80d91608d85db9.jpg",
+        "tit": "波雅·汉库克",
+        "cont": "王下七武海中唯一的女性"
+    }
+]
