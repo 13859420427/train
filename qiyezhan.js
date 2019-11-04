@@ -1,8 +1,6 @@
 $(document).ready(function () {
     //获取api新闻图片和文本
-=======
     axios.get('c.json')
->>>>>>> update
     .then(function (res) {
         /*如果成功进入.then*/
         console.log('data', res.data[0].url);
