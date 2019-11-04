@@ -1,6 +1,6 @@
 $(document).ready(function () {
     //获取api新闻图片和文本
-    axios.get('http://mock-api.com/7gPXeRgl.mock/action')
+    axios.get('https://mock-api.com/7gPXeRgl.mock/action')
     .then(function (res) {
         /*如果成功进入.then*/
         console.log('data', res.data[0].url);
